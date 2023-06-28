@@ -20,7 +20,7 @@ public class Personagem {
     private static final int POSICAO_INICIAL_EM_Y = 100;
     
 
-    public Personagem(){
+    public Personagem(int velocidadeDeDeslocamento){
         this.posicaoEmx = POSICAO_INICIAL_EM_X;
         this.posicaoEmy = POSICAO_INICIAL_EM_Y;
         this.velocidadeDeDeslocamento = velocidadeDeDeslocamento;    
