@@ -10,7 +10,7 @@ public class Principal extends JFrame {
         Fase fase =  new Fase();
         super.add(fase);
         super.setVisible(true); //O "super" deixa claro que está na classe superior, já o "this" deixa claro que está na subclasse
-        this.setSize(800, 800);
+        this.setSize(1800, 1080);
         setTitle("Meu jogo");
         setLocationRelativeTo(null);
         
